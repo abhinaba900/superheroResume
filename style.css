@@ -1,0 +1,136 @@
+body{
+    margin: auto;
+}
+#parent{
+    width: 90%;
+    background-color: #cde9ff;
+    height: auto;
+    margin: auto;
+    display: grid;
+    gap: 60px;
+    grid-template-columns: repeat(2,40%);
+    
+
+}
+#personal_detal > div{
+    display:flex;
+    padding: 2%;
+}
+#personal_detal > div >img{
+    margin-right: 4%;
+}
+
+#ares_of_intrest >div{
+    height: auto;
+    width: auto;
+    border: 2px solid #81ff5b;
+    border-radius: 50%;
+    text-align: center;
+    font-size: auto;
+   
+
+}
+#main_image{
+    height: auto;
+    width: auto;
+}
+
+#parent div{
+    background-color: #cde9ff;
+}
+h2{
+    margin-left: 20%;
+    color: #52576a;
+    font-size: 27px;
+    font-style: bold;
+}
+h5{
+    margin-left: 15%;
+    color: #52576a;
+    font-size: 32px; 
+    margin-top: 0%;
+    font-style: bold;
+}
+p{
+    color: #424242;
+    font-size: 17px;
+    font-style: bold;
+}
+h3{
+    font-size: 28px;
+    color: #1422B2;
+    font-style: bold;
+
+}
+h6{
+    font-size: 24px;
+    margin: 0% ;
+    color: #009193;
+    font-style: bold;
+}
+@media all and ( min-width: 320px) and (max-width:767px){
+    h2{
+        font-size: auto;
+    }
+    #parent{
+        width: auto;
+        height: auto;
+        grid-template-columns: repeat(2,auto);
+        background-color: #cde9ff;
+        gap: 0;
+    }
+    h3{
+        font-size: auto;
+    }
+    p{
+        font-size: auto;
+    }
+    h5{
+        font-size: auto;
+    }
+    h6{
+        font-size: auto;
+    }
+    #main_image{
+        display: block;
+        height: auto;
+        width: auto;
+    }
+    #parent div{
+       height: auto;
+       width: auto;
+    }
+}
+@media all and ( min-width: 778px) and (max-width:1023px){
+    h2{
+        font-size: auto;
+    } 
+    #parent{
+        width: auto;
+        height: auto;
+        grid-template-columns: repeat(2,auto);
+        background-color: #cde9ff;
+        gap: 0;
+    }
+    h3{
+        font-size: auto;
+    }
+    p{
+        font-size: auto;
+    }
+    h5{
+        font-size: auto;
+    }
+    h6{
+        font-size: auto;
+    }
+    #main_image{
+        display: block;
+        height: auto;
+        width: auto;
+    }
+    #parent div{
+        height: auto;
+        width: auto;
+     }
+}
